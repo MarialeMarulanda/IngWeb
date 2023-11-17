@@ -1,0 +1,96 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgb(86, 130, 129);
+}
+.wrapper {
+  width: 420px;
+  background: rgb(47, 62, 68);
+  color: #ffffff;
+}
+
+.wrapper h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  position: relative;
+  width: 90%;
+  height: 50px;
+  padding-left: 25px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  width: 90%;
+  height: 60%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 10px 10px 10px 10px;
+}
+
+.input-box input::placeholder {
+  color: #ffffff;
+}
+
+.input-box img {
+  position: absolute;
+  right: 10%;
+  top: 30%;
+  transform: translateY(-50);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  display: flex;
+  justify-self: center;
+  font-size: 14.5px;
+  padding: 20px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  justify-self: center;
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+.wrapper .btn {
+  width: 70%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 1 rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 19px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper.register {
+  font-size: 14.5px;
+  margin-top: 20px;
+}
+
+.register p a {
+  color: #fff;
+  text-decoration: none;
+}

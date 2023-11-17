@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario Empresa</title>
+	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<main>
+		<form action="" class="formulario" id="formulario">
+			
+            <h1 class="titulos" id="informacion__empresarial">REGISTRO DE LA EMPRESA</h1>
+			
+            <!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__giro__empresarial">
+				<label for="giro__empresarial" class="formulario__label">Giro de la empresa</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="giro__empresarial" id="giro__empresarial" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo debe ser una cadea de carateres </p>
+			</div>
+
+			<!-- Grupo: Nombre -->
+			<div class="formulario__grupo" id="grupo__nombre__empresa">
+				<label for="nombre__empresa" class="formulario__label">nombre de la empresa</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="nombre__empresa" id="nombre__empresa" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Los apellidos solo pueden se cadenas de texto</p>
+			</div>
+
+            <!-- Grupo: Nacionalidad -->
+			<div class="formulario__grupo" id="grupo__domicilio__fiscal">
+				<label for="domicilio__fiscal" class="formulario__label">domicilio fiscal</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="domicilio__fiscal" id="domicilio__fiscal" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo solo puede conterner letras.</p>
+			</div>
+            
+
+            <!-- Grupo: Domicilio -->
+			<div class="formulario__grupo" id="grupo__rfc__empresa">
+				<label for="rfc__empresa" class="formulario__label">rfc de la empresa</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="rfc__empresa" id="rfc__empresa" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo solo puede conterner letras.</p>
+			</div>                      
+            
+            <!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__propietario">
+				<label for="propietario" class="formulario__label">propietario</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="propietario" id="propietario" placeholder="propietario">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+            <!---Grupo: Escolaridad-->
+            <div class="formulario__grupo" id="grupo__numero__empleados">
+                <label for="numero__empleados" class="formulario__label">numero de empleados</label>
+                <div class="formulario__grupo-input">
+                    <input type="text" class="formulario__input" name="numero__empleados" id="numero__empleados" placeholder="">
+                    <i class="formulario__validacion-estado fas fa-times-circle"></i>
+                </div>
+                <p class="formulario__input-error">Este campo solo puede conterner numeros.</p>
+			</div>
+
+		    <!-- Grupo: Correo Electronico -->
+			<div class="formulario__grupo" id="grupo__correo__empresa">
+				<label for="correo__empresa" class="formulario__label">correo__empresa Electrónico</label>
+				<div class="formulario__grupo-input">
+					<input type="email" class="formulario__input" name="correo__empresa" id="correo__empresa" placeholder="correo@correo.com">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+			</div>
+
+			<!-- Grupo: Teléfono -->
+			<div class="formulario__grupo" id="grupo__telefono__empresa">
+				<label for="telefono__empresa" class="formulario__label">Teléfono</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="telefono__empresa" id="telefono__empresa" placeholder="4491234567">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+			</div>
+
+            <h1 class="titulos" id="informacion__adicional">INFORMACION ADICIONAL</h1>
+            
+         
+
+            <!---Grupo: Escolaridad-->
+            <div class="formulario__grupo" id="grupo__certificaciones">
+				<label for="certificaciones" class="formulario__label">certificaciones</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="certificaciones" id="certificaciones" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo solo puede conterner letras.</p>
+			</div>
+
+            <!---Grupo: certificaciones/diplomados/cursos-->
+            <div class="formulario__grupo" id="grupo__afiliaciones">
+				<label for="afiliaciones" class="formulario__label">afiliciones</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="afiliaciones" id="afiliaciones" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo solo puede conterner letras.</p>
+			</div>
+            
+            <div class="formulario__grupo" id="grupo__vacantes">
+				<label for="vacantes" class="formulario__label">puestos vacantes</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="vacantes" id="vacantes" placeholder="">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo solo puede conterner letras.</p>
+			</div>
+		
+
+
+            <!-- Grupo: Terminos y Condiciones -->
+            <div class="formulario__grupo" id="grupo__fecha_de_registro">
+				<label for="fecha_de_registro" class="formulario__label">fecha de registro</label>
+				<div class="formulario__grupo-input">
+					<input type="text" class="formulario__input" name="fecha_de_registro" id="fecha_de_registro" placeholder="dd/mm/aaaa">
+					<i class="formulario__validacion-estado fas fa-times-circle"></i>
+				</div>
+				<p class="formulario__input-error">Este campo solo puede contener fechas.</p>
+			</div>
+
+
+			<!-- Grupo: Terminos y Condiciones -->
+			<div class="formulario__grupo" id="grupo__terminos">
+				<label class="formulario__label">
+					<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+					Acepto los Terminos y Condiciones
+				</label>
+			</div>
+
+			<div class="formulario__mensaje" id="formulario__mensaje">
+				<p><i class="fas fa-exclamation-triangle"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </p>
+			</div>
+
+			<div class="formulario__grupo formulario__grupo-btn-enviar">
+				<button type="submit" class="formulario__btn">Enviar</button>
+				<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!
+					Su informacion estara vigente durante un mes a partir de la fecha de su registro por lo que 
+					pasado este tiempo debera registrarse nuevamente.
+				</p>
+			</div>
+
+        </form>
+	</main>
+
+	<script src="js/validacion_empresa.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
